@@ -1,0 +1,42 @@
+<link rel="stylesheet" href='/stylesheets/style.css' />
+<video autoplay loop muted id="background" class="video">
+  <source src="https://res.cloudinary.com/dt9z4xs6m/video/upload/v1605824975/movie/lisbon_uqch1o.mp4" type="video/mp4">
+</video>
+
+<nav class="navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" id="route-logo" href="/">
+    <img src="/images/purple-stars.png" width="30" height="30" class="d-inline-block align-top" alt="logo"
+      loading="lazy">
+    {{title}}
+  </a>
+</nav>
+
+
+<div class="login-signup">
+  {{#unless user}}
+  <h2>Welcome to {{title}}</h2>
+  <h5>Here you can plan your route and choose the best restaurants, galleries, viewpoints and much more!</h5>
+
+  <button class="btn btn-info"><a href="/signup" id="signup">Sign up</a></button>
+</div>
+
+{{/unless}}
+
+{{#if user}}
+<div class="login-signup">
+  <p class="welcome">Welcome back, {{user.username}}</p>
+  {{!-- <input type="submit" value="Submit"> --}}
+  <button class="btn btn-info"><a href="/route-search">Choose your Route</a>
+    <form method="POST" action="/logout">
+      <button class="btn btn-info" type="submit">Log Out</button>
+    </form>
+</div>
+
+
+{{else}}
+<div class="login-signup">
+
+  <button class="btn btn-info"><a href="/login">Log in</a>
+</div>
+
+{{/if}}

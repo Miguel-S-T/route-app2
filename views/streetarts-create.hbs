@@ -1,0 +1,61 @@
+<nav id="nav-route" class="navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="/route-search">
+    <img src="/images/purple-stars.png" width="30" height="30" class="d-inline-block align-top" alt="logo"
+      loading="lazy">
+    {{title}}
+  </a>
+  <form method="POST" action="/logout">
+    <button id="logout-route" class="btn btn-info" type="submit">Log Out</button>
+  </form>
+</nav>
+
+
+<div id="create-container" class="container">
+  <h1>Located great street art? Add it here! </h1>
+  <form action="/streetarts/create" method="POST">
+    <div class="col-10">
+      <div class="form-group row ml-10">
+        <label>
+          Select your Picture
+          <input id="choose-file" type="file" class="form-control space-between" name="image">
+        </label>
+        <label>
+          Artist
+          <input type="text" class="form-control space-between" name="artist">
+        </label>
+        <label>
+          Name or Description
+          <textarea name="name_description" class="form-control space-between" cols="30" rows="2"></textarea>
+        </label>
+        <label>
+          Address
+          <input type="double" class="form-control space-between" name="address">
+        </label>
+        <label>
+          Latitude
+          <input type="double" class="form-control space-between" name="latitude">
+        </label>
+        <label>
+          Longitude
+          <input type="double" class="form-control space-between" name="longitude">
+        </label>
+        <label>
+          Other Location Notes
+          <input type="text" class="form-control space-between" name="other_location_note"
+            value="{{streetart.other_location_note}}">
+        </label>
+        <label>
+          Comment
+          <textarea name="comment" class="form-control space-between" cols="30" rows="2"></textarea>
+        </label>
+      </div>
+      <button type="submit" class="create-button">Create</button>
+  </form>
+</div>
+</div>
+<br>
+<div class="links-create">
+  <a href="/route-search"> ⇦ Back to route map</a>
+  <br>
+  <a href="/streetarts"> ⇦ List of all street art</a>
+</div>

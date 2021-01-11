@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,200;1,300;1,500;1,600&family=Roboto&display=swap');
+
+
+body {
+  font-size: 16px !important; 
+  font-family: 'Barlow Condensed', sans-serif !important;
+  
+  // background-image: url("/downloads/background 1.jpeg") !important;
+  // background-size: contain;
+  // width: 100%;
+  // height: 100%;
+  background-color: #E5E5E5 !important;
+  color: #14213d;
+}
+
+a {
+  color: white;
+}
+
+.bg-light {
+  font-family: 'Audiowide'!important;
+  background-color: black !important;
+ box-shadow: 0 2px 20px 0 white;
+}
+
+#nav-route {
+  background-color: black !important;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  display: block;
+  margin-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px 0 black;
+}
+
+.map-routes {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.add-route-buttons {
+  font-size: 16px !important;
+  margin-top: 1rem !important; 
+  margin-bottom: -1rem;
+  border-color: white !important;
+  background-color: #42A3B8;
+}
+
+.label-start {
+  position: relative;
+  width: 220px;
+}
+
+.label-end {
+  position: relative;
+  width: 220px;
+}
+
+.details-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 37px;
+  margin-top: -20px;
+}
+.graffiti {
+  width: 60vw;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.col-sm-4 {
+  margin-bottom: 20px!important;
+}
+
+.video {
+  display: block;
+  width: 90rem;
+  height: 33.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover !important;
+  box-shadow: 0 0 15px 0 black;
+}
+
+.street-art-links {
+  text-align: center !important;
+  margin-bottom: 4vh;
+}
+
+#street-art-a1 {
+  font-size: 15px !important;
+  margin-top: 0.2rem;
+  border-color: white !important;
+  background-color: #42A3B8 !important;
+}
+
+#street-art-a2 {
+  font-size: 15px !important;
+  margin-top: 0.2rem;
+  border-color: white !important;
+  background-color: #42A3B8 !important;
+}
+
+#favorite-p {
+  font-size: 20px;
+  margin-left: 3vw;
+}
+
+#delete-fav {
+  border-color: white !important;
+  background-color: #42A3B8 !important;
+  font-size: 15px !important;
+}
+
+.card-body {
+  text-align: center;
+ 
+}
+
+#cards-box {
+ display: flex;
+ justify-content: center;
+
+}
+
+.card-title {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+footer {
+    width: auto;
+    height: 4.5rem;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:black;
+    color: white;
+    font-size: 13px;
+}
+
+#footer-p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 1rem !important;
+  color: white !important;
+ 
+}
+
+.login-signup {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 22px !important;
+}
+
+.btn-info {
+  font-size: 20px !important;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  border-color: white;
+  background-color: #42A3B8;
+}
+
+.btn-sm {
+  font-size: 20px !important;
+  margin-top: 0.2rem;
+  border-color: white !important;
+  background-color: #42A3B8 !important;
+}
+
+.inputBox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#email-box {
+  position: relative;
+  right: 1rem;
+}
+
+.welcome {
+  top: 2vh !important;
+}
+
+#signup-anchor {
+  position: relative;
+  color:#42A3B8;
+  top: 2rem;
+  text-decoration: underline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pass-login {
+  position: relative;
+  right: 0.12rem;
+}
+
+#logout-route {
+  position: relative;
+  font-family: 'Barlow Condensed', sans-serif !important;
+  line-height: 2vh;
+  font-size: 15px !important;
+  bottom: 2.2vh;
+  left: 0.6vh;
+}
+
+.save-favorites {
+  display: block;
+  position: relative;
+  font-family:e 'Barlow Condensed', sans-serif !important;
+  font-size: 20px !important;
+  margin-top: 1vh ; 
+ text-align: center;
+}
+
+// .save-p {
+//   // margin-top: 2.4vh !important;
+//   // margin-bottom: -1rem !important; 
+// }
+
+#save-route {
+  margin-bottom: 1.1vh;
+  margin-left: 0.1vw;
+  font-size: 18px !important;
+  border-color: white !important;
+  background-color: #21515c !important;
+}
+
+@media only screen and (max-width:  400px) {
+  #save-route {
+    margin-top: -2rem;
+  }
+  #places-buttons {
+    margin-top: -0.3vh !important;
+  }
+}
+@media only screen and (max-width:  467px) {
+  #save-route {
+    margin-top: -1.5rem;
+  }
+  #places-buttons {
+    margin-top: -0.3vh !important;
+  }
+}
+
+#places-buttons {
+  text-align: center;
+  margin-top: -1.7vh;
+}
+
+#show-street-art {
+  background-color: #21515c !important;
+}
+
+.btn-primary.active {
+  font-size: 17px !important;
+  border-color: white !important;
+  background-color: #42A3B8 !important;
+}
+
+
+#search-places-btn {
+  position: relative;
+  left: 10px;
+  bottom: 4px;  
+  font-size: 16px !important;
+  font-weight: 400;
+  border-color: white !important;
+  background-color: #21515c !important;
+}
+
+#street-art-div.container {
+  margin-top: 11vh;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#create-container {
+  margin-top: 11vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cards-art {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 2vh;
+  margin-left:4vw;
+  margin-right:vw;
+  justify-self: center;
+}
+
+#card-body-div {
+  height: 28vh;
+  width: auto;
+  justify-self: center;
+  text-align: center;
+}
+
+#btn-del-street {
+
+  font-size: 16px !important;
+  margin-top: 1rem;
+  color: white;
+  margin-bottom: -1rem;
+  border-color: white;
+  background-color: #42A3B8;
+}
+
+.align-content-center {
+  position: relative;
+  text-align: center;
+      top: 3vh;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);    
+  }
+
+  .links-create {
+   margin-top: 27vh;
+    margin-left: 3vw;
+  }
+
+input#file-upload-button  {
+    background-color: transparent !important;
+  }

@@ -1,0 +1,32 @@
+<link rel="stylesheet" href='/stylesheets/style.css' />
+<video autoplay loop muted id="background" class="video">
+  <source src="https://res.cloudinary.com/dt9z4xs6m/video/upload/v1605824975/movie/lisbon_uqch1o.mp4" type="video/mp4">
+</video>
+
+<nav class="navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    <img src="/images/purple-stars.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    {{title}}
+  </a>
+</nav>
+<div class="login-signup">
+  <h2>Sign Up</h2>
+  <form action="/signup" method="POST">
+    <div class="inputBox">
+      <input type="text" name="username" placeholder="username">
+      <label>Username</label>
+    </div>
+    <div id="email-box" class="inputBox">
+      <input type="email" name="email" placeholder="email">
+      <label>Email</label>
+    </div>
+    <div class="inputBox">
+      <input type="password" name="password" placeholder="********">
+      <label>Password</label>
+    </div>
+    <button class="btn btn-info" type="submit" id="input-style">Create account</button>
+    {{#if errorMessage}}
+    <div class="error">{{errorMessage}}</div>
+    {{/if}}
+  </form>
+</div>

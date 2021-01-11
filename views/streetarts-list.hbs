@@ -1,0 +1,39 @@
+<nav id="nav-route" class="navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="/route-search">
+    <img src="/images/purple-stars.png" width="30" height="30" class="d-inline-block align-top" alt="logo"
+      loading="lazy">
+    {{title}}
+  </a>
+  <form method="POST" action="/logout">
+    <button id="logout-route" class="btn btn-info" type="submit">Log Out</button>
+  </form>
+</nav>
+
+<div id="street-art-div" class="container">
+  <br>
+  <h1 style="text-decoration:underline" ; class="details-title">Lisbon's best Street Art</h1>
+  <div class="row">
+    {{#each streetarts}}
+    <div id="cards-art" class="col-sm-4">
+      <div class="card" style="width: 22rem;">
+        <img src={{imageUrl}} class="card-img-top" alt={{title}}>
+        <div id="card-body-div" class="card-body">
+          <h5 class="card-title">{{name_description}}</h5>
+          <p>by: {{artist}}</p>
+          <a href="/streetarts/{{_id}}" style="text-decoration: underline">See details</a>
+          <a href="/streetarts/{{_id}}/edit" style="text-decoration: underline">Edit</a>
+          <div id="overlay">
+            <div class="d-flex flex-column align-content-center">
+              <form action="/streetarts/{{_id}}/delete" method="POST">
+                <button id="btn-del-street" class="btn btn-info" type="submit">Delete</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  <br>
+  <a href="/route-search"> ⇦ Back to route map</a>
+</div>
