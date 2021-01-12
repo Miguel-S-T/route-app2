@@ -108,4 +108,6 @@ app.use("/", streetart);
 const api = require("./routes/api");
 app.use("/", api);
 
+app.listen(process.env.PORT || 3000);
+
 module.exports = app;
