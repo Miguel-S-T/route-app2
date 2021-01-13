@@ -1,10 +1,10 @@
-const mongoose = require ('mongoose');
+const mongoose = require("mongoose");
 const { Schema, model } = mongoose;
 
-const streetartSchema = new Schema (
+const streetartSchema = new Schema(
   {
-    neighborhood: String, 
-    address: String, 
+    neighborhood: String,
+    address: String,
     cross_street_1: String,
     cross_street_2: String,
     artist: String,
@@ -17,16 +17,16 @@ const streetartSchema = new Schema (
     reviews: [
       {
         user: String,
-        comment: String
-      }
+        comment: String,
+      },
     ],
     isDeleted: {
       type: Boolean,
-      default: false
+      default: false,
     },
   },
   {
-    timestamps: true // to record created at & updated at 
+    timestamps: true, // to record created at & updated at
   }
-)
-module.exports = model('Streetart', streetartSchema);
+);
+module.exports = model("Streetart", streetartSchema);
