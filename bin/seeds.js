@@ -2,11 +2,15 @@
 const mongoose = require("mongoose");
 const Streetart = require("../models/Streetart.js");
 const DB_NAME = "route-app2";
-mongoose.connect(process.env.MONGODB_URI, {
-  useCreateIndex: true,
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+
+mongoose.connect(
+  "mongodb+srv://nokindj:admin@cluster0-route-app2.jlqbg.mongodb.net/test",
+  {
+    useCreateIndex: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 const streetart = [
   {
     neighborhood: "ALFAMA",
