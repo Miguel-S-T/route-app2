@@ -1,7 +1,7 @@
 // bin/seeds.js
 const mongoose = require("mongoose");
 const Streetart = require("../models/Streetart.js");
-const DB_NAME = "route-app";
+const DB_NAME = "route-app2";
 mongoose.connect(process.env.MONGODB_URI, {
   useCreateIndex: true,
   useNewUrlParser: true,
