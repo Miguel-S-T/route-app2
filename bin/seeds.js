@@ -21,7 +21,8 @@ const streetart = [
     longitude: "-9.1195719",
     coordinates: "[-9.1195719, 38.7175428]",
     type: "Point",
-    imageUrl: "vhils-alfama.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/vhils-alfama_zzw7wl.jpg",
     comment: "",
   },
   {
@@ -36,7 +37,8 @@ const streetart = [
     longitude: "-9.1328826",
     coordinates: "[-9.1328826, 38.7133686]",
     type: "Point",
-    imageUrl: "calcada-amalia-rodrigues.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/calcada-amalia-rodrigues_gjidwg.jpg",
     comment: "",
   },
   {
@@ -66,7 +68,8 @@ const streetart = [
     longitude: "-9.1216741",
     coordinates: "[-9.1216741, 38.7175939]",
     type: "Point",
-    imageUrl: "poseidon.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/poseidon_vszkxk.jpg",
     comment: "",
   },
   {
@@ -81,7 +84,8 @@ const streetart = [
     longitude: "-9.1220921",
     coordinates: "[-9.1220921, 38.717199]",
     type: "Point",
-    imageUrl: "mario-belem.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/mario-belem_f5rweb.jpg",
     comment: "",
   },
   {
@@ -96,7 +100,8 @@ const streetart = [
     longitude: "-9.145929",
     coordinates: "[-9.145929, 38.7154421]",
     type: "Point",
-    imageUrl: "galeria-arte-urbana.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/galeria-arte-urbana_quq3st.jpg",
     comment: "",
   },
   {
@@ -111,7 +116,8 @@ const streetart = [
     longitude: "-9.1468407",
     coordinates: "[-9.1468407, 38.7118617]",
     type: "Point",
-    imageUrl: "rigo.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/rigo_rfllie.jpg",
     comment: "",
   },
   {
@@ -126,7 +132,8 @@ const streetart = [
     longitude: "-9.1486484",
     coordinates: "[-9.1486484, 38.7143558]",
     type: "Point",
-    imageUrl: "rua-da-vinha-arte.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/rua-da-vinha-arte_detpyk.jpg",
     comment: "",
   },
   {
@@ -141,7 +148,8 @@ const streetart = [
     longitude: "-9.1482922",
     coordinates: "[-9.1482922, 38.7143042]",
     type: "Point",
-    imageUrl: "binau.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/binau_lleben.jpg",
     comment: "",
   },
   {
@@ -156,7 +164,8 @@ const streetart = [
     longitude: "-9.1477206",
     coordinates: "[-9.1477206, 38.7117622]",
     type: "Point",
-    imageUrl: "sumo-doubledevil.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/sumo-doubledevil_oevfmr.jpg",
     comment: "",
   },
   {
@@ -171,7 +180,8 @@ const streetart = [
     longitude: "-9.1459011",
     coordinates: "[-9.1459011, 38.7124911]",
     type: "Point",
-    imageUrl: "pharmacia-de-cultura.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/pharmacia-de-cultura_y9p3fv.jpg",
     comment: "",
   },
   {
@@ -186,7 +196,8 @@ const streetart = [
     longitude: "-9.1430027",
     coordinates: "[-9.1430027, 38.7133802]",
     type: "Point",
-    imageUrl: "utopia.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/utopia_d3q0jv.jpg",
     comment: "",
   },
   {
@@ -201,7 +212,8 @@ const streetart = [
     longitude: "-9.1318415",
     coordinates: "[-9.1318415, 38.7197895]",
     type: "Point",
-    imageUrl: "eime.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/eime_etsmfc.jpg",
     comment: "",
   },
   {
@@ -216,7 +228,8 @@ const streetart = [
     longitude: "-9.1327677",
     coordinates: "[-9.1327677, 38.7187038]",
     type: "Point",
-    imageUrl: "mariana-dias-coutinho.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/mariana-dias-coutinho_cahbry.jpg",
     comment: "",
   },
   {
@@ -231,7 +244,8 @@ const streetart = [
     longitude: "-9.1320037",
     coordinates: "[-9.1320037, 38.719663]",
     type: "Point",
-    imageUrl: "violant.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/violant_orouu5.jpg",
     comment: "",
   },
   {
@@ -246,7 +260,8 @@ const streetart = [
     longitude: "-9.1314133",
     coordinates: "[-9.1314133, 38.7207496]",
     type: "Point",
-    imageUrl: "shepard-fairey.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/shepard-fairey_muwzmq.jpg",
     comment: "",
   },
   {
@@ -261,7 +276,8 @@ const streetart = [
     longitude: "-9.1300983",
     coordinates: "[-9.1300983, 38.7186534]",
     type: "Point",
-    imageUrl: "vhils-graca.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/vhils-graca_jeonxp.jpg",
     comment: "",
   },
   {
@@ -277,7 +293,8 @@ const streetart = [
     longitude: "-9.1312927",
     coordinates: "[-9.1312927, 38.7159256]",
     type: "Point",
-    imageUrl: "armu-yama.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/armu-yama_x5xvg2.jpg",
     comment: "",
   },
   {
@@ -292,7 +309,8 @@ const streetart = [
     longitude: "-9.1356973",
     coordinates: "[-9.1356973, 38.7190808]",
     type: "Point",
-    imageUrl: "akacorleone.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/akacorleone_ki9qne.jpg",
     comment: "",
   },
   {
@@ -307,7 +325,8 @@ const streetart = [
     longitude: "-9.2126479",
     coordinates: "[-9.2126479, 38.6958346]",
     type: "Point",
-    imageUrl: "bordalo-ii-belem.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/bordalo-ii-belem_ggroy8.jpg",
     comment: "",
   },
   {
@@ -323,7 +342,8 @@ const streetart = [
     longitude: "-9.196979",
     coordinates: "[-9.196979, 38.6968141]",
     type: "Point",
-    imageUrl: "lusiadas-street-art.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/lusiadas-street-art_g9qh1e.jpg",
     comment: "",
   },
   {
@@ -338,7 +358,8 @@ const streetart = [
     longitude: "-9.230146",
     coordinates: "[-9.230146, 38.6997597]",
     type: "Point",
-    imageUrl: "street-art-nark.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/street-art-nark_vdz7t6.jpg",
     comment: "",
   },
   {
@@ -353,7 +374,8 @@ const streetart = [
     longitude: "-9.1499101",
     coordinates: "[-9.1499101, 38.7294606]",
     type: "Point",
-    imageUrl: "street-art-os-gemeos.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/street-art-os-gemeos_zjxeym.jpg",
     comment: "",
   },
   {
@@ -368,7 +390,8 @@ const streetart = [
     longitude: "-9.1623681",
     coordinates: "[-9.1623681, 38.7252759]",
     type: "Point",
-    imageUrl: "arte-urbana-amoreiras.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/arte-urbana-amoreiras_o3tkx7.jpg",
     comment: "",
   },
   {
@@ -383,7 +406,8 @@ const streetart = [
     longitude: "-9.1683337",
     coordinates: "[-9.1683337, 38.7295322]",
     type: "Point",
-    imageUrl: "vhils-campolide.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/vhils-campolide_ggrqj7.jpg",
     comment: "",
   },
   {
@@ -398,7 +422,8 @@ const streetart = [
     longitude: "-9.1810148",
     coordinates: "[-9.1810148, 38.7035607]",
     type: "Point",
-    imageUrl: "lx-factory.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/lx-factory_v6jadl.jpg",
     comment: "",
   },
   {
@@ -413,7 +438,8 @@ const streetart = [
     longitude: "-9.1804729",
     coordinates: "[-9.1804729, 38.7005557]",
     type: "Point",
-    imageUrl: "village-underground.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/village-underground_xolwdh.jpg",
     comment: "",
   },
   {
@@ -429,7 +455,8 @@ const streetart = [
     longitude: "-9.1772179",
     coordinates: "[-9.1772179, 38.7026577]",
     type: "Point",
-    imageUrl: "alcantara-mar.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/alcantara-mar_k8wqzd.jpg",
     comment: "",
   },
   {
@@ -444,7 +471,8 @@ const streetart = [
     longitude: "-9.1762787",
     coordinates: "[-9.1762787, 38.7073432]",
     type: "Point",
-    imageUrl: "bordalo-ii-alcantara.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/bordalo-ii-alcantara_b7vlew.jpg",
     comment: "",
   },
   {
@@ -459,7 +487,8 @@ const streetart = [
     longitude: "-9.1373039",
     coordinates: "[-9.1373039, 38.7208224]",
     type: "Point",
-    imageUrl: "tamara-alves.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/tamara-alves_yzaige.jpg",
     comment: "",
   },
   {
@@ -474,7 +503,8 @@ const streetart = [
     longitude: "-9.140345",
     coordinates: "[-9.140345, 38.7208489]",
     type: "Point",
-    imageUrl: "violant-street-art.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/violant-street-art_thkyqe.jpg",
     comment: "",
   },
   {
@@ -489,7 +519,8 @@ const streetart = [
     longitude: "-9.1386247",
     coordinates: "[-9.1386247, 38.7225118]",
     type: "Point",
-    imageUrl: "utopia63.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/utopia63_jpcdvs.jpg",
     comment: "",
   },
   {
@@ -505,7 +536,8 @@ const streetart = [
     longitude: "-9.1372043",
     coordinates: "[-9.1372043, 38.7123757]",
     type: "Point",
-    imageUrl: "arte-chao-do-loureiro.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501359/Street-art%20Route-App2/arte-chao-do-loureiro_vocngn.jpg",
     comment: "",
   },
   {
@@ -520,7 +552,8 @@ const streetart = [
     longitude: "-9.1381962",
     coordinates: "[-9.1381962, 38.7127502]",
     type: "Point",
-    imageUrl: "escadinhas-sao-cristovao.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/escadinhas-sao-cristovao_ez1l7b.jpg",
     comment: "",
   },
   {
@@ -535,7 +568,8 @@ const streetart = [
     longitude: "-9.1374238",
     coordinates: "[-9.1374238, 38.7130906]",
     type: "Point",
-    imageUrl: "street-art-mouraria.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/street-art-mouraria_arxlzp.jpg",
     comment: "",
   },
   {
@@ -550,7 +584,8 @@ const streetart = [
     longitude: "-9.1431402",
     coordinates: "[-9.1431402, 38.7158588]",
     type: "Point",
-    imageUrl: "amalia.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/amalia_cfn8pf.jpg",
     comment: "",
   },
   {
@@ -565,7 +600,8 @@ const streetart = [
     longitude: "-9.1427828",
     coordinates: "[-9.1427828, 38.719147]",
     type: "Point",
-    imageUrl: "odeith.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501362/Street-art%20Route-App2/odeith_wyasgn.jpg",
     comment: "",
   },
   {
@@ -580,7 +616,8 @@ const streetart = [
     longitude: "-9.1525467",
     coordinates: "[-9.1525467, 38.70684]",
     type: "Point",
-    imageUrl: "fox-bordalo-ii.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/fox-bordalo-ii_p8tdga.jpg",
     comment: "",
   },
   {
@@ -595,7 +632,8 @@ const streetart = [
     longitude: "-9.1531471",
     coordinates: "[-9.1531471, 38.7092233]",
     type: "Point",
-    imageUrl: "vhils-santos.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/vhils-santos_lzs99j.jpg",
     comment: "",
   },
   {
@@ -610,7 +648,8 @@ const streetart = [
     longitude: "-9.1497138",
     coordinates: "[-9.1497138, 38.7056403]",
     type: "Point",
-    imageUrl: "bicicleta-sem-freio.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/bicicleta-sem-freio_zxfe82.jpg",
     comment: "",
   },
   {
@@ -625,7 +664,8 @@ const streetart = [
     longitude: "-9.2206494",
     coordinates: "[-9.2206494, 38.7586673]",
     type: "Point",
-    imageUrl: "amalia-rodrigues.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/amalia-rodrigues_cm2se0.jpg",
     comment: "",
   },
   {
@@ -640,7 +680,8 @@ const streetart = [
     longitude: "-9.2204387",
     coordinates: "[-9.2204387, 38.7582587]",
     type: "Point",
-    imageUrl: "carlos-paredes.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501361/Street-art%20Route-App2/carlos-paredes_xlfnxr.jpg",
     comment: "",
   },
   {
@@ -655,7 +696,8 @@ const streetart = [
     longitude: "-9.2204383",
     coordinates: "[-9.2204383, 38.7583494]",
     type: "Point",
-    imageUrl: "zeca-afonso.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501360/Street-art%20Route-App2/zeca-afonso_tvf7yg.jpg",
     comment: "",
   },
   {
@@ -671,7 +713,8 @@ const streetart = [
     longitude: "-9.2228381",
     coordinates: "[-9.2228381, 38.7586715]",
     type: "Point",
-    imageUrl: "vhils-fabrica-braco-de-prata.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/vhils-fabrica-braco-de-prata_v5botv.jpg",
     comment: "",
   },
   {
@@ -686,7 +729,8 @@ const streetart = [
     longitude: "-9.1029023",
     coordinates: "[-9.1029023, 38.7432483]",
     type: "Point",
-    imageUrl: "street-art-zesar-behamonte.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501365/Street-art%20Route-App2/street-art-zesar-behamonte_hw94gw.jpg",
     comment: "",
   },
   {
@@ -701,7 +745,8 @@ const streetart = [
     longitude: "-9.1117969",
     coordinates: "[-9.1117969, 38.7400916]",
     type: "Point",
-    imageUrl: "street-art-god-mess.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/street-art-god-mess_gpywfs.jpg",
     comment: "",
   },
   {
@@ -716,7 +761,8 @@ const streetart = [
     longitude: "-9.1103405",
     coordinates: "[-9.1103405, 38.7409958]",
     type: "Point",
-    imageUrl: "street-art-licuado.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/street-art-licuado_k5aov0.jpg",
     comment: "",
   },
   {
@@ -731,7 +777,8 @@ const streetart = [
     longitude: "-9.1102714",
     coordinates: "[-9.1102714, 38.7409606]",
     type: "Point",
-    imageUrl: "street-art-kobra.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/street-art-kobra_zvfke7.jpg",
     comment: "",
   },
   {
@@ -746,7 +793,8 @@ const streetart = [
     longitude: "-9.1103405",
     coordinates: "[-9.1103405, 38.7409958]",
     type: "Point",
-    imageUrl: "street-art-miguel-brum.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/street-art-miguel-brum_vj3ldh.jpg",
     comment: "",
   },
   {
@@ -761,7 +809,8 @@ const streetart = [
     longitude: "-9.1089231",
     coordinates: "[-9.1089231, 38.7413638]",
     type: "Point",
-    imageUrl: "street-art-kruella.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501363/Street-art%20Route-App2/street-art-kruella_xdldok.jpg",
     comment: "",
   },
   {
@@ -776,7 +825,8 @@ const streetart = [
     longitude: "-9.1090436",
     coordinates: "[-9.1090436, 38.741606]",
     type: "Point",
-    imageUrl: "street-art-steep.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/street-art-steep_xb0kvo.jpg",
     comment: "",
   },
   {
@@ -791,7 +841,8 @@ const streetart = [
     longitude: "-9.1088678",
     coordinates: "[-9.1088678, 38.7418404]",
     type: "Point",
-    imageUrl: "street-art-the-caver.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/dgyg9zh3a/image/upload/v1611501364/Street-art%20Route-App2/street-art-the-caver_dah9de.jpg",
     comment: "",
   },
 ];
