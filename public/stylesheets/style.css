@@ -111,9 +111,10 @@ a {
   text-decoration: underline; }
 
 footer {
+  position: relative;
   width: auto;
   height: 4.5rem;
-  margin-top: 50px;
+  margin-top: 210px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: black;
